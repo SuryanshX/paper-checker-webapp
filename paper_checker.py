@@ -23,7 +23,7 @@ def show_results():
     st.write(f"**Not Attempted:** {not_attempted}")
     st.write(f"---")
     st.write(f"**System 1 (SSC: +2, -0.5) → Final Score = {score1}**")
-    st.write(f"**System 2 (+1, -0.25) → Final Score = {score2}**")
+    st.write(f"**UPSSSC PET (+1, -0.25) → Final Score = {score2}**")
 
 def reset_counts():
     """Resets all session state variables to zero."""
@@ -87,5 +87,6 @@ with col_final2:
 
 if st.session_state.show_results:
     show_results()
+
 
 
