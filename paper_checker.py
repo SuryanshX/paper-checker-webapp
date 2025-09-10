@@ -54,9 +54,7 @@ def paper_checker():
     print("\n" + final_text)
     print(f"✅ Final result saved to: {result_path}\n")
 
-    # ensure window stays open until key press
-    print("Press any key to exit...")
-    os.system("pause")   # Windows only
 
 if __name__ == "__main__":
     paper_checker()
+
